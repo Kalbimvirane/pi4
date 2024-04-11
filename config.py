@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+API_ID = int(getenv("API_ID", "27542255"))
+API_HASH = getenv("API_HASH", "25b518517482a62a35bd5fda24e8b0be")
+BOT_TOKEN = getenv("BOT_TOKEN", "6450015213:AAE6xh1nyzb9GFSFjqsZhpqW_EZmKR008eQ")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
-OWNER_ID = int(getenv("OWNER_ID", 5931622575))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002069687013"))
+OWNER_ID = int(getenv("OWNER_ID",6592257014 ))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "",
@@ -20,7 +20,7 @@ UPSTREAM_REPO = getenv(
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BACjdrdtZSQTCJyMfSdVuy3mDoWho8ZnGRAUfKDXwSPY5FMJ75NxHLbrQfdCgedadLZzDMgmUcwglTAMh4MajVpQFh4QcmU8VAblTuTDjWklpR7a4008z2kkA4bdyauxlL7qlXWOayRbmMZARx9kR2dU2JmWUovnzvq570U1Nl8gDqDQLL2MXE2XI8T9cg7LnK_vvmnKxkuXjhDRyg1oQrx6aHQQ3C1FOJtjaRX3RhK3QjTX-MN1JbcApiK21hR5mV6hnO1SmRKLoJu56VhVrW5rp45V84ubG8Fwi-i_BvV1j3dv-BVogGdnez8SwDN9bCGG-dHp7W0si4bf52hH8_68AAAAAZYUQuQA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
