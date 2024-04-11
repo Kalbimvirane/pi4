@@ -17,8 +17,8 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/Kalbimvirane/pi4",
 )
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/botunkralı")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/botundestegi")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/muzikamibot")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/musixas")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 STRING1 = getenv("STRING_SESSION", "BACjdrdtZSQTCJyMfSdVuy3mDoWho8ZnGRAUfKDXwSPY5FMJ75NxHLbrQfdCgedadLZzDMgmUcwglTAMh4MajVpQFh4QcmU8VAblTuTDjWklpR7a4008z2kkA4bdyauxlL7qlXWOayRbmMZARx9kR2dU2JmWUovnzvq570U1Nl8gDqDQLL2MXE2XI8T9cg7LnK_vvmnKxkuXjhDRyg1oQrx6aHQQ3C1FOJtjaRX3RhK3QjTX-MN1JbcApiK21hR5mV6hnO1SmRKLoJu56VhVrW5rp45V84ubG8Fwi-i_BvV1j3dv-BVogGdnez8SwDN9bCGG-dHp7W0si4bf52hH8_68AAAAAZYUQuQA")
 STRING2 = getenv("STRING_SESSION2", None)
