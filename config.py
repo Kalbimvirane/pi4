@@ -15,7 +15,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1002069687013"))
 OWNER_ID = int(getenv("OWNER_ID",6592257014 ))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "",
+    "https://github.com/Kalbimvirane/pi4",
 )
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/")
